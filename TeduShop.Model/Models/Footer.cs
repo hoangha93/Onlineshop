@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace TeduShop.Model.Models
 {
 	[Table("Footers")]
-	class Footer
+	public class Footer
 	{
 		[Key]
 		public string ID { set; get; }

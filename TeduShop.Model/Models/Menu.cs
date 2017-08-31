@@ -28,7 +28,7 @@ namespace TeduShop.Model.Models
 		public int GroupID { set; get; }
 
 		[ForeignKey("GroupID")]
-		public virtual MenuGroups MenuGroup { set; get; }
+		public virtual MenuGroup MenuGroup { set; get; }
 		public string Target { set; get; }
 
 		public bool Status { set; get; }
