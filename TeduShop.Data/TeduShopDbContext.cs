@@ -33,6 +33,8 @@ namespace TeduShop.Data
 		public DbSet<VisitorStatistic> VisitorStatistic { set; get; }
 		//public IEnumerable<object> ProductCategories { get; set; }
 
+		public DbSet<Error> Errors { set; get; }
+
 		protected override void OnModelCreating(DbModelBuilder builder)
 		{
 		}
